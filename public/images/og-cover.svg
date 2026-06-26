@@ -1,0 +1,17 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#FFF6FA"/>
+  <rect x="48" y="48" width="1104" height="534" rx="36" fill="#7A123E"/>
+  <circle cx="956" cy="146" r="122" fill="#E61E73" fill-opacity="0.18"/>
+  <circle cx="234" cy="470" r="188" fill="#F7A6C6" fill-opacity="0.22"/>
+  <rect x="92" y="96" width="420" height="438" rx="28" fill="white"/>
+  <path d="M124 124H480V506H124V124Z" stroke="#E61E73" stroke-width="14"/>
+  <path d="M170 168H312C351 168 381 178 403 198C425 218 436 248 436 289V454H392V303C392 252 365 226 314 226H218V454H174V210C174 181 172 168 170 168Z" stroke="#E61E73" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M432 168H298V202H392V252H330V286H392C414 286 432 268 432 246V168Z" stroke="#E61E73" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M300 162C264 162 235 174 211 198C188 221 176 251 176 289V454H220V308C220 258 240 231 282 225C302 222 319 228 333 243C347 257 354 275 354 301V454H398V295C398 257 387 225 363 199C347 181 326 169 300 162Z" stroke="#E61E73" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M162 374C162 331 175 297 202 271C229 245 261 232 299 232V276C270 276 246 286 227 305C208 324 198 347 198 375V454H154L162 374Z" stroke="#E61E73" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="584" y="216" fill="#F7A6C6" font-family="Arial, sans-serif" font-size="24" letter-spacing="8">ABU DHABI, UAE</text>
+  <text x="584" y="308" fill="white" font-family="Georgia, serif" font-size="68">ZARAS Premium Textiles</text>
+  <text x="584" y="382" fill="#FDE6F0" font-family="Arial, sans-serif" font-size="28">Luxury fabrics reimagined with a bold signature identity.</text>
+  <rect x="584" y="434" width="244" height="64" rx="32" fill="#E61E73"/>
+  <text x="636" y="475" fill="white" font-family="Arial, sans-serif" font-size="24">Explore Collection</text>
+</svg>
