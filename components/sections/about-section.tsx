@@ -8,13 +8,13 @@ export function AboutSection() {
     <section className="section-spacing">
       <div className="container-shell grid gap-12 lg:grid-cols-[0.95fr_1.05fr] lg:items-center">
         <Reveal>
-          <div className="relative overflow-hidden rounded-[2rem] bg-white p-3 shadow-luxury">
+          <div className="relative aspect-square overflow-hidden">
             <Image
-              src="/images/about-premium-textiles.svg"
+              src="/images/image_eb3fa4ef (1).png"
               alt="Premium textile showroom with curated luxury fabric rolls"
-              width={760}
-              height={760}
-              className="rounded-[1.5rem] object-cover"
+              fill
+              sizes="(min-width: 1024px) 45vw, 100vw"
+              className="object-cover object-center scale-[1.06]"
             />
           </div>
         </Reveal>

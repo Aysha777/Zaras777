@@ -53,7 +53,7 @@ export function Footer() {
             </li>
             <li className="flex gap-3">
               <Phone className="h-4 w-4 text-brand-gold" />
-              <a href={`tel:${siteConfig.phone}`}>{siteConfig.phone}</a>
+              <a href={`tel:${siteConfig.phoneHref}`}>{siteConfig.phone}</a>
             </li>
             <li className="flex gap-3">
               <Mail className="h-4 w-4 text-brand-gold" />

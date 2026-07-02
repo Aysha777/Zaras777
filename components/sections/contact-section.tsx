@@ -18,7 +18,7 @@ export function ContactSection() {
             </div>
             <div className="flex gap-4">
               <Phone className="h-5 w-5 text-brand-gold" />
-              <a href={`tel:${siteConfig.phone}`}>{siteConfig.phone}</a>
+              <a href={`tel:${siteConfig.phoneHref}`}>{siteConfig.phone}</a>
             </div>
             <div className="flex gap-4">
               <Mail className="h-5 w-5 text-brand-gold" />

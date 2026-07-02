@@ -9,9 +9,10 @@ export const siteConfig = {
   ogImage: "/images/og-cover.svg",
   locale: "en_AE",
   phone: "+971 054 402 7883",
+  phoneHref: "+971544027883",
   email: "sales@zaraspremiumtextiles.com",
   address: "Shop No: 231, Second Floor,Mushrif Mall, Abu Dhabi, United Arab Emirates",
-  whatsapp: "971 054 402 7883"
+  whatsapp: "971544027883"
 };
 
 export function createMetadata(

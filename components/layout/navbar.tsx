@@ -52,7 +52,7 @@ export function Navbar() {
 
         <div className="hidden items-center gap-4 lg:flex">
           <a
-            href={`tel:${siteConfig.phone}`}
+            href={`tel:${siteConfig.phoneHref}`}
             className="inline-flex items-center gap-2 text-sm font-medium text-slate-700"
           >
             <Phone className="h-4 w-4 text-brand-gold" />

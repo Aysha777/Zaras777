@@ -21,87 +21,87 @@ export const navLinks: NavLink[] = [
 
 export const categories: Category[] = [
   {
-    name: "Printed Abaya Fabric",
+    name: "Midnight Floral Abaya Fabric",
     slug: "abaya-fabric",
-    description: "Statement printed abaya fabrics with fluid drape, rich coverage, and fashion-forward surface design.",
-    image: "/images/category-abaya-fabric.svg"
+    description: "Flowing abaya fabric with bold ivory florals on a deep midnight base.",
+    image: "/images/categorysections/image.png"
   },
   {
-    name: "Printed Nida Fabric",
+    name: "Rose Contrast Printed Nida",
     slug: "nida-fabric",
-    description: "Soft premium nida with bold print development for modern abayas, sets, and boutique modestwear.",
-    image: "/images/category-nida-fabric.svg"
+    description: "Soft printed nida with high-contrast floral bouquets for modern modestwear.",
+    image: "/images/categorysections/image copy.png"
   },
   {
-    name: "Printed Chiffon",
+    name: "Sky Mist Dotted Chiffon",
     slug: "chiffon",
-    description: "Airy printed chiffon for scarves, layering, sleeves, and expressive designer collections.",
-    image: "/images/category-chiffon.svg"
+    description: "Light chiffon-style fabric with a watercolor blue wash and delicate dotted accents.",
+    image: "/images/categorysections/image copy 2.png"
   },
   {
-    name: "Printed Cotton",
+    name: "Regal Garden Printed Cotton",
     slug: "cotton",
-    description: "Breathable printed cottons suited to fashion retail, coordinated sets, and ready-to-wear programs.",
-    image: "/images/category-cotton.svg"
+    description: "Breathable cotton print with rich floral placement and everyday structure.",
+    image: "/images/categorysections/image copy 3.png"
   },
   {
-    name: "Printed Linen Blend",
+    name: "Noir Bloom Linen Blend",
     slug: "linen",
-    description: "Textured linen blends carrying premium print stories with natural airflow and modern structure.",
-    image: "/images/category-linen.svg"
+    description: "Textured linen-blend look with scattered cream florals on a dark ground.",
+    image: "/images/categorysections/image copy 4.png"
   },
   {
-    name: "Printed Silk",
+    name: "Blush Meadow Printed Silk",
     slug: "silk",
-    description: "Lustrous silk bases developed for signature prints, couture pieces, and elevated statement garments.",
-    image: "/images/category-silk.svg"
+    description: "Silk-inspired floral print with a soft blush palette and fluid luxury feel.",
+    image: "/images/categorysections/image copy 5.png"
   }
 ];
 
 export const products: Product[] = [
   {
-    name: "Royal Blue Arabesque Nida",
+    name: "Cobalt Arabesque Nida",
     slug: "royal-blue-arabesque-nida",
     category: "Printed Nida Fabric",
-    shortDescription: "Soft ivory nida carrying bold royal-blue arabesque print for statement abayas and coordinated sets.",
+    shortDescription: "Ivory nida with sweeping cobalt arabesque artwork and fluid drape for standout abaya collections.",
     description:
-      "Royal Blue Arabesque Nida reflects the kind of printed product shown in your reference image: an ivory base with a strong blue ornamental motif and graceful drape. It is designed for premium abayas, flowing co-ord sets, and boutiques that want a distinctive visual identity on soft modestwear fabric.",
+      "Cobalt Arabesque Nida pairs a creamy ivory base with oversized cobalt motifs that read bold, clean, and distinctly modern. It is ideal for abayas, coordinated modestwear sets, and statement silhouettes that need movement without losing structure.",
     image: "/images/image.png",
-    features: ["Soft nida hand feel", "Bold ornamental print", "Elegant drape", "Ideal for premium abayas"],
-    applications: ["Printed abayas", "Co-ord sets", "Boutique modestwear", "Designer capsules"]
+    features: ["Soft nida hand feel", "Graphic arabesque print", "Fluid fall", "Strong boutique presence"],
+    applications: ["Printed abayas", "Matching sets", "Designer modestwear", "Capsule drops"]
   },
   {
-    name: "Cobalt Vine Satin Silk",
+    name: "Rose Garden Shimmer Silk",
     slug: "cobalt-vine-satin-silk",
     category: "Printed Silk",
-    shortDescription: "Smooth satin silk with rich cobalt print for luxury kaftans, scarves, and statement dresses.",
+    shortDescription: "Lustrous floral silk with a soft shimmer stripe and romantic bouquet print in pastel rose tones.",
     description:
-      "Cobalt Vine Satin Silk combines a luminous satin surface with a bold large-scale print story. It is suitable for labels that need luxury impact in scarf lines, occasionwear, kaftans, and flowing dresses with standout movement.",
+      "Rose Garden Shimmer Silk brings together delicate florals, a luminous ground, and subtle vertical shimmer detailing. It suits labels building elevated scarves, occasion layers, feminine kaftans, and dressier boutique edits.",
     image: "/images/image copy.png",
-    features: ["Satin sheen", "Large-scale print impact", "Fluid movement", "Luxury finish"],
-    applications: ["Kaftans", "Scarves", "Eventwear", "Statement dresses"]
+    features: ["Silk-like sheen", "Subtle shimmer stripe", "Soft floral repeat", "Elegant drape"],
+    applications: ["Scarves", "Kaftans", "Occasion overlays", "Luxury dresses"]
   },
   {
-    name: "Ivory Azure Printed Chiffon",
+    name: "Aqua Meadow Chiffon",
     slug: "ivory-azure-printed-chiffon",
     category: "Printed Chiffon",
-    shortDescription: "Lightweight chiffon with airy blue print made for overlays, scarves, and occasion styling.",
+    shortDescription: "Airy chiffon-style floral print with lively aqua and marigold color stories for expressive layering.",
     description:
-      "Ivory Azure Printed Chiffon is created for customers looking for soft movement with a decorative print story. Its sheer, light structure makes it ideal for layering, premium scarves, sleeves, and occasionwear accents.",
+      "Aqua Meadow Chiffon features watercolor florals over bright seasonal grounds, finished with a light shimmer stripe effect that catches movement beautifully. It is suited to scarves, sleeves, overlays, and occasion-led layering pieces.",
     image: "/images/image copy 2.png",
-    features: ["Featherlight feel", "Decorative print surface", "Graceful layering", "Soft transparency"],
-    applications: ["Printed scarves", "Sleeves and overlays", "Layered abayas", "Occasionwear"]
+    features: ["Featherlight handle", "Painterly floral print", "Soft transparency", "Colorful movement"],
+    applications: ["Layered abayas", "Scarves", "Sleeves", "Occasion accents"]
   },
   {
-    name: "Indigo Bloom Printed Cotton",
+    name: "Pastel Petal Satin Blend",
     slug: "indigo-bloom-printed-cotton",
     category: "Printed Cotton",
-    shortDescription: "Breathable printed cotton with clean structure for fashion retail, tunics, and dailywear.",
+    shortDescription: "Soft pastel floral fabric with a smooth finish for boutique dresses, scarves, and coordinated edits.",
     description:
-      "Indigo Bloom Printed Cotton is a dependable everyday premium fabric with standout print appeal. It works well for brands that want breathable comfort while offering eye-catching tunics, dresses, and coordinated retail pieces.",
+      "Pastel Petal Satin Blend offers a dreamy watercolor floral story across multiple soft colorways. The finish reads smoother and dressier than an everyday basic, making it a strong option for feminine boutique collections and flowing coordinated looks.",
     image: "/images/image copy 3.png",
-    features: ["Breathable comfort", "Clear print definition", "Easy to tailor", "Retail-friendly quality"],
-    applications: ["Tunics", "Ready-to-wear sets", "Casual dresses", "Boutique retail"]
+    features: ["Smooth face", "Pastel watercolor print", "Soft multi-tone palette", "Boutique-ready finish"],
+    applications: ["Scarves", "Day dresses", "Co-ord sets", "Soft occasionwear"]
   }
 ];
 
@@ -192,10 +192,10 @@ export const blogPosts: BlogPost[] = [
 ];
 
 export const galleryImages = [
-  "/images/gallery-textile-1.svg",
-  "/images/gallery-textile-2.svg",
-  "/images/gallery-textile-3.svg",
-  "/images/gallery-textile-4.svg",
-  "/images/gallery-textile-5.svg",
-  "/images/gallery-textile-6.svg"
+  "/images/categorysections/image.png",
+  "/images/categorysections/image copy.png",
+  "/images/categorysections/image copy 2.png",
+  "/images/categorysections/image copy 3.png",
+  "/images/categorysections/image copy 4.png",
+  "/images/categorysections/image copy 5.png"
 ];

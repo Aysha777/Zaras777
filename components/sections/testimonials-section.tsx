@@ -17,12 +17,12 @@ export function TestimonialsSection() {
         <div className="mt-14 grid gap-6 lg:grid-cols-3">
           {testimonials.map((testimonial, index) => (
             <Reveal key={testimonial.name} delay={index * 0.08}>
-              <article className="rounded-[1.75rem] border border-slate-200 bg-white p-8 shadow-sm">
+              <article className="flex h-full flex-col rounded-[1.75rem] border border-slate-200 bg-white p-6 shadow-sm sm:p-8">
                 <Quote className="h-10 w-10 text-brand-gold" />
-                <p className="mt-6 text-lg leading-8 text-slate-600">“{testimonial.quote}”</p>
+                <p className="mt-6 flex-1 text-base leading-7 text-slate-600 sm:text-lg sm:leading-8">“{testimonial.quote}”</p>
                 <div className="mt-8">
                   <p className="font-display text-2xl text-brand-navy">{testimonial.name}</p>
-                  <p className="text-sm uppercase tracking-[0.25em] text-slate-500">
+                  <p className="text-xs uppercase tracking-[0.22em] text-slate-500 sm:text-sm sm:tracking-[0.25em]">
                     {testimonial.company}
                   </p>
                 </div>

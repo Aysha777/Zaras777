@@ -45,7 +45,7 @@ function AnimatedCounter({
 export function StatisticsSection() {
   return (
     <section className="section-spacing">
-      <div className="container-shell grid gap-6 rounded-[2rem] bg-brand-soft p-8 sm:grid-cols-2 lg:grid-cols-4 lg:p-12">
+      <div className="container-shell grid gap-6 rounded-[2rem] bg-brand-soft p-6 sm:grid-cols-2 sm:p-8 lg:grid-cols-4 lg:p-12">
         {statistics.map((stat, index) => (
           <motion.div
             key={stat.label}
@@ -53,12 +53,12 @@ export function StatisticsSection() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, amount: 0.35 }}
             transition={{ duration: 0.5, delay: index * 0.08 }}
-            className="rounded-[1.5rem] bg-white p-6 shadow-sm"
+            className="flex h-full flex-col rounded-[1.5rem] bg-white p-6 shadow-sm"
           >
-            <p className="font-display text-5xl text-brand-navy">
+            <p className="font-display text-4xl text-brand-navy sm:text-5xl">
               <AnimatedCounter value={stat.value} suffix={stat.suffix} />
             </p>
-            <p className="mt-3 text-sm font-medium uppercase tracking-[0.25em] text-slate-500">
+            <p className="mt-3 text-xs font-medium uppercase tracking-[0.22em] text-slate-500 sm:text-sm sm:tracking-[0.25em]">
               {stat.label}
             </p>
           </motion.div>
